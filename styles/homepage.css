@@ -12,7 +12,7 @@ p{
     display: grid;
     background-image: url(../images/bg_parallax.jpg);
     padding: 50px;
-    height:400px;
+    height:390px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,10 +51,8 @@ p{
     color: #e6e6e6;
     color: #3f3f3f; */
     color: #fff098;
-    /* width: 350px; */
     font-size: 4em;
     margin-top: -10px;
-    /* margin-bottom: 50px; */
 }
 
 .intro-section :nth-child(2) :nth-child(2){
@@ -62,6 +60,69 @@ p{
     margin-bottom: -20px;
     color: #3f3f3f;
     /* color: #4064af; */
-    background-color: rgba(230, 230, 230, 50%);
+    background-color: rgba(255, 255, 255, 50%);
+}
 
+
+
+.about-me-section{
+    background-color: #fff098;
+    margin: 8px -8px -8px -8px;
+    box-shadow: inset 0px 60px 121px 30px rgba(255,200,14,1);
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.about-me-section > .blurb{
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 55%);
+    padding: 0px 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: #3f3f3f;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption{
+    color: #3f3f3f;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    /* text-align: center; */
+}
+
+.about-me-section > .my-pic> #virtual-me{
+    margin: 40px 0px 0px 230px;
+    text-align: center;
+}
+
+.about-me-section > .my-pic> #virtual-me img{
+    height: 200px;
+    border-radius: 5px;
+    border: solid 2px #3f3f3f;
+}
+
+.about-me-section > .my-pic> #mask-on-me{
+    margin: -120px 0px 0px 30px;
+    /* text-align: center; */
+}
+
+.about-me-section > .my-pic> #mask-on-me img{
+    height: 350px;
+    border-radius: 5px;
+    border: solid 2px #3f3f3f;
+}
+
+.about-me-section > .my-pic> #unphotogenic-me{
+    margin: -240px 0px 0px 320px;
+    padding-bottom: 20px;
+    /* text-align: center; */
+}
+
+.about-me-section > .my-pic> #unphotogenic-me img{
+    height: 280px;
+    border-radius: 5px;
+    border: solid 2px #3f3f3f;
 }
