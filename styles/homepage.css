@@ -1,13 +1,3 @@
-h1{
-    font-family: 'Merienda', sans-serif;
-}
-
-p{
-    font-family: 'Quicksand';
-    font-size: 1.5em;
-    line-height: 150%;
-}
-
 .intro-section{
     display: grid;
     background-image: url(../images/bg_parallax.jpg);
