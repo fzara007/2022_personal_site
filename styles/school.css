@@ -17,11 +17,12 @@
     background-color: rgba(255, 255, 255, 70%);
     padding: 40px;
     border-radius: 20px;
+    /* border: solid 3px #3f3f3f; */
 }
 
-#school-year > .content{
+#school-year > .class-content{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.1fr 2fr;
     grid-gap: 20px;
 }
 
@@ -31,10 +32,22 @@ li{
     line-height: 1.4em;
 }
 
-.classes-section > #school-year > .content:nth-child(2){
+.classes-section > #school-year > .class-content:nth-child(2){
     padding-top: -200px;
 }
 
-.classes-section > #school-year > .content p{
+.review p{
     font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+.sophomore-year > .class-content{
+    border-bottom: solid 3px #3f3f3f;
+}
+
+.clubs-section{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    grid-gap: 20px;
 }
