@@ -12,7 +12,7 @@
     margin: 8px -8px -8px -8px;
 }
 
-#school-year{
+#card{
     margin: -10px 40px 40px 40px;
     background-color: rgba(255, 255, 255, 70%);
     padding: 40px;
@@ -20,7 +20,7 @@
     /* border: solid 3px #3f3f3f; */
 }
 
-#school-year > .class-content{
+#card > .class-content{
     display: grid;
     grid-template-columns: 1.1fr 2fr;
     grid-gap: 20px;
@@ -32,7 +32,7 @@ li{
     line-height: 1.4em;
 }
 
-.classes-section > #school-year > .class-content:nth-child(2){
+.classes-section > #card > .class-content:nth-child(2){
     padding-top: -200px;
 }
 
@@ -50,4 +50,22 @@ li{
     display: grid;
     grid-template-columns: 1.1fr 2fr;
     grid-gap: 20px;
+}
+
+.club-preview{
+    display: flex;
+    justify-content: space-between;
+}
+
+.club-preview > .column > #card h2{
+    font-size: 1.4em;
+}
+
+.club-preview > .column > #card p{
+    font-size: 1em;
+}
+
+#card > .photos{
+    display: flex;
+    justify-content: space-around;
 }

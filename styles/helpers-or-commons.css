@@ -17,6 +17,14 @@ p{
     line-height: 150%;
 }
 
-spacer100{
+.spacer20{
+    height: 20px;
+}
+
+.spacer70{
+    height: 70px;
+}
+
+.spacer100{
     height: 100px;
 }
