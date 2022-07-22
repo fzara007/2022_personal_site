@@ -20,7 +20,7 @@
     /* border: solid 3px #3f3f3f; */
 }
 
-#card > .class-content{
+.class-content{
     display: grid;
     grid-template-columns: 1.1fr 2fr;
     grid-gap: 20px;
@@ -32,7 +32,7 @@ li{
     line-height: 1.4em;
 }
 
-.classes-section > #card > .class-content:nth-child(2){
+.class-content:nth-child(2){
     padding-top: -200px;
 }
 
@@ -41,8 +41,8 @@ li{
     line-height: 1.8em;
 }
 
-.sophomore-year > .class-content{
-    border-bottom: solid 3px #3f3f3f;
+.clubs-section, .cts{
+    border-top: solid 3px #3f3f3f;
 }
 
 .clubs-section{
