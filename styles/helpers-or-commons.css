@@ -28,3 +28,12 @@ p{
 .spacer100{
     height: 100px;
 }
+
+a{
+    color: inherit;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #8aa9e6;
+}
