@@ -23,7 +23,7 @@
     filter:sepia(4%) saturate(7%) hue-rotate(304deg) brightness(200%) contrast(85%);
 }
 
-.intro-section :nth-child(2){
+.intro{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,11 +31,12 @@
     text-align: center;
     /* background-color: rgba(63, 63, 63, 70%); */
     background-color: rgba(138, 169, 230, 70%);
+    box-shadow: inset 0px 0px 72px 0px #4064ac;
     border-radius: 10px;
     padding: 15px;
 }
 
-.intro-section :nth-child(2) :nth-child(1){
+.intro *:nth-child(1){
     border-radius: 10px;
     /* color: #8aa9e6;
     color: #e6e6e6;
@@ -45,7 +46,9 @@
     margin-top: -10px;
 }
 
-.intro-section :nth-child(2) :nth-child(2){
+.intro *:nth-child(2){
+    border-radius: 10px;
+    padding: 15px;
     margin-top: -20px;
     margin-bottom: -20px;
     color: #3f3f3f;

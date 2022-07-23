@@ -12,14 +12,6 @@
     margin: 8px -8px -8px -8px;
 }
 
-#card{
-    margin: -10px 40px 40px 40px;
-    background-color: rgba(255, 255, 255, 70%);
-    padding: 40px;
-    border-radius: 20px;
-    /* border: solid 3px #3f3f3f; */
-}
-
 .class-content{
     display: grid;
     grid-template-columns: 1.1fr 2fr;
@@ -70,9 +62,4 @@ li{
 
 .club-preview > .column > #card p{
     font-size: 1em;
-}
-
-#card > .photos{
-    display: flex;
-    justify-content: space-around;
 }
