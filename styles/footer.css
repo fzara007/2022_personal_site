@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     color: #e6e6e6;
+    filter: brightness(80%);
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.2rem;
 }
@@ -31,7 +32,6 @@
 
 .footer > .socials > .socials-logo i:hover{
     color: #fff089;
-    font-size: 1.8em;
 }
 
 .footer span{

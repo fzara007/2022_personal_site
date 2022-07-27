@@ -19,14 +19,17 @@ p{
 
 .spacer20{
     height: 20px;
+    width: 20px;
 }
 
 .spacer70{
     height: 70px;
+    width: 70px;
 }
 
 .spacer100{
     height: 100px;
+    width: 100px;
 }
 
 a{
@@ -38,15 +41,15 @@ a:hover{
     color: #8aa9e6;
 }
 
-#card{
-    margin: -10px 40px 40px 40px;
+.card{
+    margin: 0px 40px 40px 40px;
     background-color: rgba(255, 255, 255, 70%);
     padding: 40px;
     border-radius: 20px;
     /* border: solid 3px #3f3f3f; */
 }
 
-#card > .photos{
+.card > .photos{
     display: flex;
     justify-content: space-around;
 }

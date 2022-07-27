@@ -13,7 +13,7 @@
 
         <link rel="stylesheet" href="../styles/header.css">
         <link rel="stylesheet" href="../styles/helpers-or-commons.css">
-        <link rel="stylesheet" href="../styles/traveling.css">
+        <link rel="stylesheet" href="../styles/travel-food.css">
         <link rel="stylesheet" href="../styles/footer.css">
     </head>
     <body>
@@ -58,9 +58,18 @@
             </div>
         </div>
 
-        <div class="ps">
-            <h1 style="font-size: 1.5em;">Pssstttt!!</h1>
-            <p style="font-size: 1em;">Check out my food <a href="travel-food.html">here</a></p>
+        <div class="trips">
+
+            <div id="caymann-islands" class="card" style="margin-top: 20px;">
+                <div class="slideshow">
+                    <img name="slide" class="slide">
+                </div>
+                <div class="spacer70"></div>
+                <div class="review">
+                    <h2>Caymann Islands (July 2022)</h2>
+                    <p>Absolutely loved the food here!!</p>
+                </div>
+            </div>            
         </div>
 
         <div class="footer">
@@ -81,4 +90,33 @@
         </div>
     </body>
 
+    <script>
+        var i =0;
+        var images = [];
+        var time = 3000;
+
+        images[0] = '../images/traveling/caymann-islands/food/seafood-noodles.jpg'
+        images[1] = '../images/traveling/caymann-islands/food/garlic-bread.jpg'
+        images[2] = '../images/traveling/caymann-islands/food/shrimp-n-potstickers.jpg'
+        images[3] = '../images/traveling/caymann-islands/food/ramen.jpg'
+        images[4] = '../images/traveling/caymann-islands/food/tuna-rice.jpg'
+        images[5] = '../images/traveling/caymann-islands/food/pina-colada.jpg'
+        images[6] = '../images/traveling/caymann-islands/food/ice-cream.jpg'
+        images[7] = '../images/traveling/caymann-islands/food/salt-rundown-beef.jpeg'
+        images[8] = '../images/traveling/caymann-islands/food/conch-curry-n-fish.jpeg'
+
+        function changeImg(){
+            document.slide.src = images[i];
+
+            if(i < images.length - 1){
+                i++;
+            }
+            else{
+                i=0;
+            }
+            setTimeout("changeImg()", time);
+        }
+
+        window.onload = changeImg;
+    </script>
 </html>
