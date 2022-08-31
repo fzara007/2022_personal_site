@@ -58,18 +58,28 @@
             </div>
         </div>
 
-        <div class="trips">
 
+        <div class="trips">
             <div id="caymann-islands" class="card" style="margin-top: 20px;">
                 <div class="slideshow">
-                    <img name="slide" class="slide">
+                    <img name="CIslides" class="slide">
                 </div>
                 <div class="spacer70"></div>
                 <div class="review">
                     <h2>Caymann Islands (July 2022)</h2>
                     <p>Absolutely loved the food here!!</p>
                 </div>
-            </div>            
+            </div>
+            <div id="caymann-islands" class="card">
+                <div class="slideshow">
+                    <img name="SPslides" class="slide">
+                </div>
+                <div class="spacer70"></div>
+                <div class="review">
+                    <h2>Spain & Portugal (August 2022)</h2>
+                    <p>Absolutely loved the food here!!</p>
+                </div>
+            </div>               
         </div>
 
         <div class="footer">
@@ -106,7 +116,7 @@
         images[8] = '../images/traveling/caymann-islands/food/conch-curry-n-fish.jpeg'
 
         function changeImg(){
-            document.slide.src = images[i];
+            document.CIslides.src = images[i];
 
             if(i < images.length - 1){
                 i++;
@@ -119,4 +129,5 @@
 
         window.onload = changeImg;
     </script>
+    
 </html>
