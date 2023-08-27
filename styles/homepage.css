@@ -1,6 +1,6 @@
 .intro-section{
     display: grid;
-    background-image: url(../images/bg_parallax.jpg);
+    background-image: url(../images/bg/bg_parallax.jpg);
     padding: 50px;
     height:390px;
     background-attachment: fixed;
